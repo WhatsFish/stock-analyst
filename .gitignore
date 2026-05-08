@@ -1,0 +1,10 @@
+.env
+.venv/
+node_modules/
+.next/
+*.log
+__pycache__/
+
+# Runtime artifacts — DB is the source of truth
+input/
+output/
