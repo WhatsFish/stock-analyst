@@ -88,10 +88,10 @@ export default async function TimelinePage() {
           <span className="text-sm text-neutral-500">{t.name} · {DAYS}-day timeline</span>
         </div>
         <nav className="flex gap-4 text-sm">
-          <Link href="/stock" className="text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200">
+          <Link href="/" className="text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200">
             today
           </Link>
-          <Link href="/stock/timeline" className="font-medium underline">
+          <Link href="/timeline" className="font-medium underline">
             timeline
           </Link>
         </nav>

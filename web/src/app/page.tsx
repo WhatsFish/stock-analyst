@@ -34,8 +34,8 @@ export default async function StockHome() {
           <span className="text-sm text-neutral-500">{t.name}</span>
         </div>
         <nav className="flex gap-4 text-sm">
-          <Link href="/stock" className="font-medium underline">today</Link>
-          <Link href="/stock/timeline" className="text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200">
+          <Link href="/" className="font-medium underline">today</Link>
+          <Link href="/timeline" className="text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200">
             timeline
           </Link>
         </nav>
